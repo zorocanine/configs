@@ -1,0 +1,77 @@
+! Xresource file
+
+URxvt*depth: 24
+URxvt*geometry: 100x25
+URxvt.borderColor: #111113
+URxvt.internalBorder: 8
+
+URxvt*iconFile: /usr/share/icons/Flattr/apps/scalable/bash.svg
+
+!URxvt*.transparent: true
+!URxvt*.shading: 15
+
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+
+! -- login shell
+URxvt*loginShell: false
+
+! -- font
+!URxvt.font: xft:Terminus:pixelsize=12
+!URxvt.font: xft:PragmataPro:size=10
+!URxvt.font: xft:Droid Sans Mono:size=10
+!URxvt.font: xft:Inconsolata:size=12
+!URxvt.font: xft:Liberation Mono:size=10
+!URxvt.font: xft:berry:pixelsize=12
+!URxvt.font: xft:tewi-8
+URxvt.font: xft:terminus:size=8
+!URxvt.font: xft:tamsyn:size=8
+!URxvt.font: xft:cure-8
+URxvt.boldFont:
+URxvt*letterSpace: -1
+!URxvt*lineSpace: 2
+
+! -- perl
+URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.url-launcher: /usr/local/bin/firefox-nightly
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+
+! -- tabs
+!URxvt.tabbed.tabbar-fg: 8
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 0
+
+! black
+URxvt.color0: #111113
+URxvt.color8: #66686A
+! red
+URxvt.color1: #C33D49
+URxvt.color9: #E24F5E
+! green
+URxvt.color2: #7CB03B
+URxvt.color10: #A7E35D
+! yellow
+URxvt.color3: #BF7F30
+URxvt.color11: #E9A24A
+! blue
+URxvt.color4: #6C4CC0
+URxvt.color12: #9472EC
+! magenta
+URxvt.color5: #C4499D
+URxvt.color13: #E85FBD
+! cyan
+URxvt.color6: #30BF8F
+URxvt.color14: #5BE8B9
+! white
+URxvt.color7: #AAABAD
+URxvt.color15: #EBECEE
+
+URxvt.background: #111113
+URxvt.foreground: 15
