@@ -1,0 +1,91 @@
+URxvt*depth: 24
+URxvt*geometry: 100x25
+URxvt.borderColor: #111113
+URxvt.internalBorder: 8
+!URxvt*.transparent: true
+!URxvt*.shading: 15
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+! -- login shell
+URxvt*loginShell: false
+! -- font
+URxvt.font: xft:Terminus:size=8
+!URxvt.boldFont:1
+URxvt*letterSpace: -1
+!URxvt*lineSpace: 2
+! -- perl
+URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.url-launcher: /usr/local/bin/firefox
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+! -- tabs
+!URxvt.tabbed.tabbar-fg: 8
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 0
+! black
+URxvt.color0: #111113
+URxvt.color8: #66686A
+! red
+URxvt.color1: #C33D49
+URxvt.color9: #E24F5E
+! green
+URxvt.color2: #7CB03B
+URxvt.color10: #A7E35D
+! yellow
+URxvt.color3: #BF7F30
+URxvt.color11: #E9A24A
+! blue
+URxvt.color4: #6C4CC0
+URxvt.color12: #9472EC
+! magenta
+URxvt.color5: #C4499D
+URxvt.color13: #E85FBD
+! cyan
+URxvt.color6: #30BF8F
+URxvt.color14: #5BE8B9
+! white
+URxvt.color7: #AAABAD
+URxvt.color15: #EBECEE
+URxvt.background: #111113
+URxvt.foreground: 15 ----------------------------------------------------
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+! Colors -----------------------------------------------------------
+! Powerarrow Darker
+*.background: #1A1A1A
+*.foreground: #DDDDFF
+!black
+*color0: #1A1A1A
+*color8: #6E6E6E
+!red
+*color1: #AF5360
+*color9: #EA6F81
+!green
+*color2: 447019
+*color10: #7BAB4E
+!yellow
+*color3: #D8D782
+*color11: #CFCD63
+!blue
+*color12: #92ADCB
+*color4: #648BB5
+!magenta
+*color5: #E5C8D6
+*color13: #CB92AD
+!cyan
+*color6: #406E6F
+*color14: #81DCDE
+!white
+*color7: #C6C6E5
+*color15: #DDDDFF
